@@ -1,7 +1,13 @@
 import Index from '@/mdx/index.mdx';
 
+export const metadata = {
+    pathname: '/'
+};
+
 export default function Home() {
-  return (
-      <Index />
-  );
+    return (
+        <div className="prose">
+            <Index />
+        </div>
+    );
 }
